@@ -1,0 +1,14 @@
+{
+  "id":          "missed-deadline",
+  "category":   "Workplace",
+  "title":      "Missed Deadline",
+  "description":"Your manager opens the 1:1: 'You missed the deadline we agreed on last week. What happened?'",
+  "maxTurns":    6,
+  "aiPersona":  "A firm but fair line manager who values accountability and clear communication.",
+  "successBehaviors": [
+    "Take ownership without over-apologising",
+    "Explain root cause without blame",
+    "Offer concrete next steps",
+    "Ask for support if needed"
+  ]
+}

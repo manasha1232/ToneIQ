@@ -1,0 +1,14 @@
+{
+  "id":          "salary-negotiation",
+  "category":   "Career",
+  "title":      "Salary Negotiation",
+  "description":"Recruiter: 'The budget for this role is fixed at ₹12L. There's really no room to move.'",
+  "maxTurns":    6,
+  "aiPersona":  "A recruiter who is friendly but firm on budget, open to creative solutions.",
+  "successBehaviors": [
+    "State your value calmly with evidence",
+    "Ask open questions about flexibility",
+    "Explore non-salary benefits",
+    "Avoid ultimatums or passive acceptance"
+  ]
+}

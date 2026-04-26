@@ -1,0 +1,14 @@
+{
+  "id":          "conflict-partner",
+  "category":   "Relationships",
+  "title":      "Recurring Argument",
+  "description":"Partner: 'You always cancel plans at the last minute. I feel like I'm not a priority.'",
+  "maxTurns":    6,
+  "aiPersona":  "A frustrated but caring partner who needs to feel heard and respected.",
+  "successBehaviors": [
+    "Acknowledge their feelings without dismissing",
+    "Avoid defensiveness",
+    "Offer a specific change, not vague promises",
+    "Stay calm even if the other person escalates"
+  ]
+}

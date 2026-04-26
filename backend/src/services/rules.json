@@ -1,0 +1,98 @@
+[
+  {
+    "id": "blame_you",
+    "patterns": ["you always", "you never", "it's your fault", "because of you", "your fault", "you made me", "you caused"],
+    "blameFlag": true, "clarityPenalty": 2,
+    "issue":      "Blame language — pointing at the other person",
+    "impact":     "Immediately puts the other person on the defensive and kills collaboration.",
+    "suggestion": "Try: 'I felt frustrated when this happened. Can we figure out a solution together?'"
+  },
+  {
+    "id": "blame_others",
+    "patterns": ["not my fault", "they made me", "it wasn't me", "someone else", "not my problem", "not my responsibility", "their fault"],
+    "blameFlag": true, "clarityPenalty": 2,
+    "issue":      "Deflecting responsibility",
+    "impact":     "Signals low accountability — reduces trust with managers and peers.",
+    "suggestion": "Try: 'I underestimated what was needed. Here is what I will do differently.'"
+  },
+  {
+    "id": "overwork_excuse",
+    "patterns": ["too much work", "too busy", "no time", "overwhelmed", "too many tasks", "a lot on my plate", "too much on"],
+    "blameFlag": false, "clarityPenalty": 1,
+    "issue":      "Vague excuse without a solution",
+    "impact":     "Sounds irresponsible without a plan — leaves the listener with no confidence.",
+    "suggestion": "Try: 'The workload was heavier than expected. I should have flagged it earlier. Here is my plan.'"
+  },
+  {
+    "id": "dismissive_deadline",
+    "patterns": ["when it's done", "it'll be done when", "will be done when", "done when it's done", "done when done"],
+    "blameFlag": false, "clarityPenalty": 3,
+    "issue":      "Dismissive — no commitment given",
+    "impact":     "Signals you do not respect deadlines or the other person's concerns.",
+    "suggestion": "Try: 'I understand this is urgent. I will have it done by [specific time].'"
+  },
+  {
+    "id": "aggressive_tone",
+    "patterns": ["shut up", "that's stupid", "you're wrong", "absolutely not", "ridiculous", "stop bothering", "leave me alone", "back off", "stop asking", "get off my case"],
+    "blameFlag": false, "clarityPenalty": 3,
+    "issue":      "Aggressive or hostile language",
+    "impact":     "Shuts down dialogue — the other party stops listening and gets defensive.",
+    "suggestion": "Try: 'I see it differently. Can I share my perspective calmly?'"
+  },
+  {
+    "id": "passive",
+    "patterns": ["i guess", "whatever you say", "i don't know", "if you say so", "fine whatever", "do what you want", "up to you"],
+    "blameFlag": false, "clarityPenalty": 1,
+    "issue":      "Passive or disengaged response",
+    "impact":     "Signals low confidence or disengagement — the other person loses trust in you.",
+    "suggestion": "Try: 'Let me think about this and come back with a clear answer by [time].'"
+  },
+  {
+    "id": "rude_command",
+    "patterns": ["just stop", "stop now", "drop it", "forget it", "go away", "i said no", "end of discussion"],
+    "blameFlag": false, "clarityPenalty": 2,
+    "issue":      "Abrupt or rude phrasing",
+    "impact":     "Comes across as hostile — makes productive conversation impossible.",
+    "suggestion": "Try: 'I would like to pause this and revisit it when we are both calm.'"
+  },
+  {
+    "id": "sarcasm",
+    "patterns": ["oh great", "oh sure", "yeah right", "obviously", "clearly you", "as if", "good luck with that", "wow thanks", "great job"],
+    "blameFlag": false, "clarityPenalty": 2,
+    "issue":      "Sarcastic tone detected",
+    "impact":     "Sarcasm signals contempt and immediately breaks trust.",
+    "suggestion": "Try: 'I have some concerns about this approach. Can we talk through them?'"
+  },
+  {
+    "id": "no_solution",
+    "patterns": ["not looking for excuses", "no excuses", "i don't want to hear", "that's not my concern", "not interested in"],
+    "blameFlag": false, "clarityPenalty": 2,
+    "issue":      "Dismissive — shutting down conversation",
+    "impact":     "Closes the door on finding a solution — the situation stays unresolved.",
+    "suggestion": "Try: 'I hear you. Let us focus on what we can do to fix this going forward.'"
+  },
+  {
+    "id": "too_short",
+    "patterns": ["fine", "ok", "okay", "sure", "whatever", "alright", "yeah", "no", "nope", "yep"],
+    "blameFlag": false, "clarityPenalty": 2,
+    "issue":      "Response too brief — no substance",
+    "impact":     "One-word answers signal disengagement and give the other person nothing to work with.",
+    "suggestion": "Try: Give a complete sentence that acknowledges the concern and offers something constructive."
+  },
+  {
+    "id": "interrupting",
+    "patterns": ["let me finish", "stop interrupting", "you never listen", "you are not listening", "nobody listens"],
+    "blameFlag": true, "clarityPenalty": 2,
+    "issue":      "Escalating the conflict",
+    "impact":     "Calling out interruptions mid-conversation increases tension rather than resolving it.",
+    "suggestion": "Try: 'I would appreciate a chance to finish my thought — then I would love to hear yours.'"
+  },
+  {
+    "id": "threat",
+    "patterns": ["i quit", "i'm done", "i resign", "take this job", "you will regret", "i'll report", "i'll complain"],
+    "blameFlag": false, "clarityPenalty": 3,
+    "issue":      "Threatening language",
+    "impact":     "Ultimatums destroy trust and rarely lead to a good outcome for either side.",
+    "suggestion": "Try: 'I am feeling very frustrated. Can we find a time to discuss this properly with HR or a mediator?'"
+  }
+]
