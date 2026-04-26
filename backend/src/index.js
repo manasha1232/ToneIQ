@@ -16,7 +16,7 @@ const dashboardRoutes = require('./routes/dashboard');
 const { purgeExpiredAudio } = require('./jobs/audioTtl');
 
 const app  = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 const JWT_SECRET = process.env.JWT_SECRET || 'change-me';
 
 // ✅ CORS (important for Vercel)
